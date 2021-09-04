@@ -15,7 +15,7 @@
 
 ## 🧪 ᴛᴀᴋᴇ STRING_SESSION ꜰʀᴏᴍ ʜᴇʀᴇ:
 
-TAP : [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@levinalab/StringSession#main.py)
+TAP : [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@BoooCreative/StringSession-1#main.py)
 
 ## Heroku Deployment 👿
 The easy way to host this bot, deploy to Heroku
