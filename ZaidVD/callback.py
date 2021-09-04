@@ -3,7 +3,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 from config import ASSISTANT_NAME as bn
 
 
-@Client.on_callback_query(filters.regex("cbguide"))
+@Client.on_callback_query(filters.regex("help"))
 async def cbguide(_, query: CallbackQuery):
   await query.edit_message_text(
     f"""❓ HOW TO USE THIS BOT:
