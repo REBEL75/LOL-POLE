@@ -14,7 +14,7 @@ from pyrogram import  Client, filters, __version__
 
 # FETCH SYSINFO
 
-@Client.on_message(filters.command('sysinfo'))
+@Client.on_message(filters.command('stats'))
 async def give_sysinfo(client, message):
     splatform = platform.system()
     platform_release = platform.release()
@@ -34,7 +34,7 @@ async def give_sysinfo(client, message):
     psutil.disk_io_counters()
     disk = f"{humanbytes(du.used)} / {humanbytes(du.total)} " f"({du.percent}%)"
     cpu_len = len(psutil.Process().cpu_affinity())
-    somsg = f"""**System Info**
+    somsg = f"""**Zaid System Info**
     
 **PlatForm :** `{splatform}`
 **PlatForm - Release :** `{platform_release}`
