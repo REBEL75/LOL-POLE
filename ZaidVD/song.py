@@ -279,7 +279,7 @@ async def vsong(_, message: Message):
             open(thumb_name, 'wb').write(thumb.content)
         except Exception as e:
             print(e)
-            await k.edit('❌ **video not found, please give a valid video name.\n\n» if you think this is an error report to @VeezSupportGroup**')
+            await k.edit('❌ **video not found, please give a valid video name.\n\n» if you think this is an error report to @Zaid_Support**')
             return
     except Exception as e:
         await k.edit(
