@@ -17,11 +17,11 @@ async def cbguide(_, query: CallbackQuery):
 
 📝 **note: stream & stop command can only be executed by group admin only!**
 
-⚡ __Maintained by Veez Project Team__""",
+⚡ __ᴘᴀʀᴛ ᴏꜰ ᴢᴀɪᴅ  ᴛᴇᴀᴍ__""",
     reply_markup=InlineKeyboardMarkup(
       [[
         InlineKeyboardButton(
-          "🏡 Go Back", callback_data="cbstart")
+          "ʙᴀᴄᴋ", callback_data="cbstart")
       ]]
     ))
 
@@ -95,11 +95,11 @@ async def cblist(_, query: CallbackQuery):
 » /truth - check it by yourself
 » /dare - check it by yourself
 
-⚡ __Maintained by Veez Project Team__""",
+⚡ __ᴘᴀʀᴛ ᴏꜰ ᴢᴀɪᴅ ᴜᴘᴅᴀᴛᴇꜱ__""",
     reply_markup=InlineKeyboardMarkup(
       [[
         InlineKeyboardButton(
-          "🏡 Go Back", callback_data="cbstart")
+          "ʙᴀᴄᴋ", callback_data="cbstart")
       ]]
     ))
 
