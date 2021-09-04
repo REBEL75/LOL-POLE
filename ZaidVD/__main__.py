@@ -3,15 +3,15 @@ from config import API_ID, API_HASH, BOT_TOKEN
 from ZaidVD.videoplayer import app
 
 
-bot = Client(
+ZaidVD = Client(
     ":memory:",
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="bot"),
+    plugins=dict(root="ZaidVD"),
 )
 
-bot.start()
+ZaidVD.start()
 print("[INFO]: STARTING BOT CLIENT")
 app.start()
 print("[INFO]: STARTING USERBOT CLIENT")
