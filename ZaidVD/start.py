@@ -8,35 +8,35 @@ async def start(client, m: Message):
                     reply_markup=InlineKeyboardMarkup(
                        [[
                           InlineKeyboardButton(
-                             "❔ HOW TO USE THIS BOT", callback_data="cbguide")
+                             "ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ʜᴇʟᴘ", callback_data="help")
                        ],[
                           InlineKeyboardButton(
-                             "🌐 Terms & Condition", callback_data="cbinfo")
+                             "😈 ᴢᴀɪᴅ ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀᴛ", url="https://t.me/zaid_team1")
                        ],[
                           InlineKeyboardButton(
-                             "📚 Command List", callback_data="cblist")
+                             "👀 ᴄᴍᴅꜱ ʟɪꜱᴛ", callback_data="cblist")
                        ],[
                           InlineKeyboardButton(
-                             "👩🏻‍💻 Developer", url="https://t.me/dlwrml")
+                             "👩🏻‍💻 ᴅᴇᴠ", url="https://t.me/Timesisnotwaiting")
                        ],[
                           InlineKeyboardButton(
-                             "💬 Group", url="https://t.me/VeezSupportGroup"),
+                             "ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/Zaid_Support"),
                           InlineKeyboardButton(
-                             "🎑 Channel", url="https://t.me/levinachannel")
+                             "🎑 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟꜱ", url="https://t.me/Zaid_Updates")
                        ]]
                     ))
    else:
-      await m.reply("**✨ bot is online now ✨**",
+      await m.reply("**✨ ᴢᴀɪᴅ ʙᴏᴛ ɪꜱ ᴏɴʟɪɴᴇ... ✨**",
                           reply_markup=InlineKeyboardMarkup(
                        [[
                           InlineKeyboardButton(
-                             "❔ HOW TO USE THIS BOT", callback_data="cbguide")
+                             "ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ", callback_data="help")
                        ],[
                           InlineKeyboardButton(
-                             "🌐 Search Youtube", switch_inline_query='s ')
+                             "🔥 ꜱᴇᴀʀᴄʜ ᴏɴ ʏᴛ", switch_inline_query='s ')
                        ],[
                           InlineKeyboardButton(
-                             "📚 Command List", callback_data="cblist")
+                             "📚 ᴄᴍᴅꜱ ʟɪꜱᴛ", callback_data="cblist")
                        ]]
                     )
       )
