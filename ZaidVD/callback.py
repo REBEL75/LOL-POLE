@@ -32,21 +32,21 @@ async def cbstart(_, query: CallbackQuery):
                                 reply_markup=InlineKeyboardMarkup(
                        [[
                           InlineKeyboardButton(
-                             "❔ HOW TO USE THIS BOT", callback_data="cbguide")
+                             "ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ʜᴇʟᴘ", callback_data="help")
                        ],[
                           InlineKeyboardButton(
-                             "🌐 Terms & Condition", callback_data="cbinfo")
+                             "😈 ᴢᴀɪᴅ ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀᴛ", url="https://t.me/zaid_team1")
                        ],[
                           InlineKeyboardButton(
-                             "📚 Command List", callback_data="cblist")
+                             "👀 ᴄᴍᴅꜱ ʟɪꜱᴛ", callback_data="cblist")
                        ],[
                           InlineKeyboardButton(
-                             "👩🏻‍💻 Developer", url="https://t.me/dlwrml")
+                             "👩🏻‍💻 ᴅᴇᴠ", url="https://t.me/Timesisnotwaiting")
                        ],[
                           InlineKeyboardButton(
-                             "💬 Group", url="https://t.me/VeezSupportGroup"),
+                             "ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/Zaid_Support"),
                           InlineKeyboardButton(
-                             "🎑 Channel", url="https://t.me/levinachannel")
+                             "🎑 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟꜱ", url="https://t.me/Zaid_Updates")
                        ]]
                     ))
 
@@ -56,21 +56,16 @@ async def cbinfo(_, query: CallbackQuery):
   await query.edit_message_text(
     f"""🌐 **bot information !**
 
-🤖 __This bot was created to stream video in telegram group video chats using several methods from WebRTC.__
+😇 __This bot was created to stream video in telegram group video chats using several methods from Zweb Server.__
 
 💡 __Powered by PyTgcalls the Async client API for the Telegram Group Calls, and Pyrogram the telegram MTProto API Client Library and Framework in Pure Python for Users and Bots.__
 
-👨🏻‍💻 __Thanks to the developers who participated in the development of this bot, the list of devs can be seen below:__
-
-👩🏻‍✈️ » [Levina](https://github.com/levina-lab)
-🤵🏻 » [Sammy-XD](https://github.com/Sammy-XD)
-👩🏻‍✈️ » [Achu](https://github.com/Achu2234)
 
 __This bot licensed under GNU-GPL 3.0 License__""",
     reply_markup=InlineKeyboardMarkup(
       [[
         InlineKeyboardButton(
-          "🏡 Go Back", callback_data="cbstart")
+          "ʙᴀᴄᴋ", callback_data="cbstart")
       ]]
     ),
     disable_web_page_preview=True
@@ -79,21 +74,13 @@ __This bot licensed under GNU-GPL 3.0 License__""",
 @Client.on_callback_query(filters.regex("cblist"))
 async def cblist(_, query: CallbackQuery):
   await query.edit_message_text(
-    f"""📚 All Command List:
+    f"""😏 ᴀʟʟ ᴄᴍᴅꜱ ʟɪꜱᴛ:
 
 » /vstream (reply to video or file) - to stream video
 » /vstop - end the video streaming
 » /song (song name) - download song from YT
 » /vsong (video name) - download video from YT
 » /lyric (song name) - lyric scrapper
-
-🎊 FUN CMD:
-
-» /asupan - check it by yourself
-» /chika - check it by yourself
-» /wibu - check it by yourself
-» /truth - check it by yourself
-» /dare - check it by yourself
 
 ⚡ __ᴘᴀʀᴛ ᴏꜰ ᴢᴀɪᴅ ᴜᴘᴅᴀᴛᴇꜱ__""",
     reply_markup=InlineKeyboardMarkup(
