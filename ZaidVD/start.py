@@ -17,7 +17,7 @@ async def start(client, m: Message):
                              "👀 ᴄᴍᴅꜱ ʟɪꜱᴛ", callback_data="cblist")
                        ],[
                           InlineKeyboardButton(
-                             "👩🏻‍💻 ᴅᴇᴠ", url="https://t.me/Timesisnotwaiting")
+                             "ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/Itsunknown-12/Zaid-Video-Player")
                        ],[
                           InlineKeyboardButton(
                              "ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/Zaid_Support"),
