@@ -26,17 +26,17 @@ async def start(client, m: Message):
                        ]]
                     ))
    else:
-      await m.reply("**✨ ᴢᴀɪᴅ ʙᴏᴛ ɪꜱ ᴏɴʟɪɴᴇ... ✨**",
+      await m.reply("**✨ ᴍɪɴᴇ ᴀꜱꜱɪꜱᴛᴀɴᴛ ᴜɴᴀʙʟᴇ ᴊᴏɪɴ ᴜʀ ɢʀᴏᴜᴘ ᴍᴀᴋᴇ ᴜʀ ᴏᴡɴ ʙᴏᴛ... ✨**",
                           reply_markup=InlineKeyboardMarkup(
                        [[
                           InlineKeyboardButton(
-                             "ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ", callback_data="help")
+                             "ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Zaid_Updates")
                        ],[
                           InlineKeyboardButton(
-                             "🔥 ꜱᴇᴀʀᴄʜ ᴏɴ ʏᴛ", switch_inline_query='s ')
+                             "🔥 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/Itsunknown-12/Zaid-Video-Player")
                        ],[
                           InlineKeyboardButton(
-                             "📚 ᴄᴍᴅꜱ ʟɪꜱᴛ", callback_data="cblist")
+                             "📚 ʜᴇʟᴘ ᴀɴᴅ ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/Zaid_Support")
                        ]]
                     )
       )
