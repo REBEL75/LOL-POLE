@@ -76,7 +76,7 @@ async def cblist(_, query: CallbackQuery):
   await query.edit_message_text(
     f"""😏 ᴀʟʟ ᴄᴍᴅꜱ ʟɪꜱᴛ:
 
-» /vstream (reply to video or file) - to stream video
+» /vstream (reply to video or file) - to stream video or url of YouTube 
 » /vstop - end the video streaming
 » /song (song name) - download song from YT
 » /vsong (video name) - download video from YT
