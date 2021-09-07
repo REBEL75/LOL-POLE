@@ -68,7 +68,7 @@ async def startvideo(client, m: Message):
                     await group_call.join(chat_id)
                     await group_call.start_video(x, repeat=False)
                     VIDEO_CALL[chat_id] = group_call
-                    await msg.edit((f"💡 **started [video streaming]({x}) !\n\n» join to video chat on the top to watch streaming."), disable_web_page_preview=True)
+                    await msg.edit((f"💡 **STARTEDxZ [video streaming]({x}) !\n\n» join to video chat on the top to watch streaming**."), disable_web_page_preview=True)
                 except Exception as e:
                     await msg.edit(f"🚫 **error** - `{e}`")
             	
