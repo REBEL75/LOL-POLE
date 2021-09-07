@@ -3,6 +3,7 @@
 𝔱𝔢𝔩𝔢𝔤𝔯𝔞𝔪 𝔟𝔬𝔱 𝔭𝔯𝔬𝔧𝔢𝔠𝔱 𝔣𝔬𝔯 𝔰𝔱𝔯𝔢𝔞𝔪𝔦𝔫𝔤 𝔳𝔦𝔡𝔢𝔬 𝔬𝔫 𝔱𝔢𝔩𝔢𝔤𝔯𝔞𝔪 𝔳𝔦𝔡𝔢𝔬 𝔠𝔥𝔞𝔱, 𝔭𝔬𝔴𝔢𝔯𝔢𝔡 𝔟𝔶 [tgcalls](https://github.com/MarshalX/tgcalls) and [pyrogram](https://github.com/pyrogram/pyrogram)
 
 <p align="center"><a href="https://t.me/zaid_team1"><img src="https://telegra.ph/file/ac4e39ae1b1fe1d41b11d.jpg" width="300"></a></p>
+
 ## Repo Stats
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=Itsunknown-12&repo=Zaid-Video-Player&theme=dark)
 
