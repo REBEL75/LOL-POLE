@@ -1,10 +1,11 @@
+#ur Motherfucker If U Kang And Don't Give Creadits 🥴 𝙭𝙕𝘼𝙄𝘿
+
 import logging
 
 from pyrogram import Client as app
 from pyrogram.types import Message
 from youtube_search import YoutubeSearch
-
-from config import BOT_USERNAME
+from config import Veez
 from helpers.filters import command
 
 # logging
@@ -13,7 +14,7 @@ logger = logging.getLogger(__name__)
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 
-@app.on_message(command(["search", f"search@{BOT_USERNAME}"]))
+@app.on_message(command(["search", f"search@{Veez.BOT_USERNAME}"]))
 async def ytsearch(_, message: Message):
     m = await message.reply_text("🔎 **searching url...**")
     try:
