@@ -1,15 +1,15 @@
 {
-    "name": "ᴢᴀɪᴅ ᴠɪᴅᴇᴏ ᴘʟᴀʏᴇʀ",
-    "description": "bot to stream video on telegram video chat, powered by zaid",
-    "logo": "https://telegra.ph/file/ac4e39ae1b1fe1d41b11d.png",
+    "name": "Veez Video Stream Bot",
+    "description": "bot to stream video on telegram video chat, powered by pytgcalls and pyrogram",
+    "logo": "https://telegra.ph/file/103a5208bb1698a8b33de.png",
     "keywords": [
         "pytgcalls",
         "telegram bot",
         "video stream"
     ],
-    "website": "https://t.me/zaid_team1",
+    "website": "https://t.me/Zaid_Updates",
     "repository": "https://github.com/Itsunknown-12/Zaid-Video-Player",
-    "success_url": "https://t.me/Zaid_Support",
+    "success_url": "https://t.me/Timesisnotwaiting",
     "env": {
         "API_ID": {
             "description": "your APP_ID from my.telegram.org",
@@ -60,3 +60,4 @@
         }
     },
     "stack": "container"
+}
