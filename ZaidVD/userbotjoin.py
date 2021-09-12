@@ -1,11 +1,12 @@
 # Copyright (C) 2021 Zaid Music
+#Ur Motherfucker If U Kang And Don't Give Creadits 🥴 𝙭𝙕𝘼𝙄𝘿
 
 import asyncio
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 from helpers.filters import command
 from helpers.decorators import authorized_users_only, errors
-from bot.videoplayer import app as USER
+from ZaidVD.videoplayer import app as USER
 from config import Zaid
 
 
