@@ -1,18 +1,26 @@
-from pyrogram import Client, idle
-from config import API_ID, API_HASH, BOT_TOKEN
-from ZaidVD.videoplayer import app
+# ===========
+# running bot
+# ===========
 
+import asyncio
+from pyrogram import Client, idle
+from config import Zaid 
+from ZaidVD.videoplayer import app
+from ZaidVD.videoplayer import call_py
 
 ZaidVD = Client(
     ":memory:",
-    API_ID,
-    API_HASH,
-    bot_token=BOT_TOKEN,
+    Zaid.API_ID,
+    Zaid.API_HASH,
+    bot_token=Zaid.BOT_TOKEN,
     plugins=dict(root="ZaidVD"),
 )
 
 ZaidVD.start()
-print("[INFO]: STARTING BOT CLIENT")
+print("[STATUS]:✅ »» BOT CLIENT STARTED ««")
 app.start()
-print("[INFO]: STARTING USERBOT CLIENT")
+print("[STATUS]:✅ »» USERBOT CLIENT STARTED ««")
+call_py.start()
+print("[STATUS]:✅ »» PYTGCALLS CLIENT STARTED ««")
 idle()
+print("[STATUS]:❌ »» BOT STOPPED ««")
