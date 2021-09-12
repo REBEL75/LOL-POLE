@@ -1,6 +1,7 @@
 from pyrogram import Client, filters
-from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, Chat, CallbackQuery
-from config import ASSISTANT_NAME as bn
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
+
+from config import Zaid
 
 
 @Client.on_callback_query(filters.regex("help"))
@@ -76,11 +77,27 @@ async def cblist(_, query: CallbackQuery):
   await query.edit_message_text(
     f"""😏 ᴀʟʟ ᴄᴍᴅꜱ ʟɪꜱᴛ:
 
-» /vstream (reply to video or file) - to stream video or url of YouTube 
-» /vstop - end the video streaming
+» /vplay (reply to video or yt/live url) - to stream video
+» /vstop - stop the video streaming
 » /song (song name) - download song from YT
 » /vsong (video name) - download video from YT
 » /lyric (song name) - lyric scrapper
+» /vjoin - invite assistant join to your group
+» /vleave - order assistant leave from your group
+
+🔰 EXTRA CMD:
+
+» /tts (reply to text) - text to speech
+» /alive - check bot alive status
+» /ping - check bot ping status
+» /uptime - check bot uptime status
+» /sysinfo - check bot system information
+
+💡 SUDO ONLY:
+
+» /rmd - remove all downloaded files
+» /rmw - remove all downloaded raw files
+» /leaveall - order assistant leave from all group
 
 ⚡ __ᴘᴀʀᴛ ᴏꜰ ᴢᴀɪᴅ ᴜᴘᴅᴀᴛᴇꜱ__""",
     reply_markup=InlineKeyboardMarkup(
