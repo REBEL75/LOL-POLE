@@ -81,7 +81,6 @@ async def cblist(_, query: CallbackQuery):
 » /vstop - stop the video streaming
 » /song (song name) - download song from YT
 » /vsong (video name) - download video from YT
-» /lyric (song name) - lyric scrapper
 » /vjoin - invite assistant join to your group
 » /vleave - order assistant leave from your group
 
@@ -91,7 +90,7 @@ async def cblist(_, query: CallbackQuery):
 » /alive - check bot alive status
 » /ping - check bot ping status
 » /uptime - check bot uptime status
-» /sysinfo - check bot system information
+» /stats - check bot system information
 
 💡 SUDO ONLY:
 
