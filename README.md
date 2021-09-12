@@ -8,12 +8,22 @@
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=Itsunknown-12&repo=Zaid-Video-Player&theme=dark)
 
 ## 🛠 Commands:
-- /vstream (reply to video) - to start video streaming
+- /vplay (reply to video/give yt url) - to start video streaming
 - /vstop - to stop video streaming
 - /song (song name) - to download song
 - /vsong (video name) - to download video
+- /userbotjoin - invite the assistant join to your group
+- /vleave - order the assistant to leave from your group
+- /tts (reply to text) - text to speech
+- /alive - check the bot alive status
+- /ping - check the bot ping status
+- /uptime - check the bot uptime status
+- /stats - show the bot system information
 
-📝 Note: From now, /vstream & /vstop command can only be used by group admins.
+## 😬 Sudo Only:
+- /rmd - clear all downloaded files
+- /rmw - clear all downloaded raw files
+- /leaveall - order the assistant to leave from all group
 
 ## 🧪 ᴛᴀᴋᴇ STRING_SESSION ꜰʀᴏᴍ ʜᴇʀᴇ:
 
@@ -25,17 +35,7 @@ The easy way to host this bot, deploy to Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Itsunknown-12/Zaid-Video-Player)
 
 # Railway Deployment 🚄
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Itsunknown-12/Zaid-Video-Player&envs=API_ID,API_HASH,BOT_TOKEN,BOT_USERNAME,ASSISTANT_NAME,SESSION_NAME,SUDO_USERS,DURATION_LIMIT,CHAT_ID)
-
-
-
-
-# Special Credits 💖
-- [Zaid](https://github.com/Itsunknown-12) Dev
-- [SammyXD](https://github.com/Sammy-XD) Dev
-- [Achu](https://github.com/Achu2234) Dev
-- [MarshalX](https://github.com/MarshalX) for [pytgcalls](https://github.com/MarshalX)
-- [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Itsunknown-12/Zaid-Video-Player&envs=API_ID,API_HASH,BOT_TOKEN,BOT_USERNAME,ASSISTANT_NAME,SESSION_NAME,SUDO_USERS,DURATION_LIMIT)
 
 ### Support & Updates 🎑
 <a href="https://t.me/Zaid_Support"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/zaid_updates"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
