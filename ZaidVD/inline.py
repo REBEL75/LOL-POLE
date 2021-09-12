@@ -1,11 +1,10 @@
+#Ur Motherfucker If U Kang And Don't Give Creadits 🥴
+
 from pyrogram import Client, errors
 from pyrogram.types import (
     InlineQuery,
-    InlineQueryResult,
     InlineQueryResultArticle,
     InputTextMessageContent,
-    InlineKeyboardButton,
-    InlineKeyboardMarkup,
 )
 from youtubesearchpython import VideosSearch
 
@@ -15,7 +14,7 @@ async def inline(client: Client, query: InlineQuery):
     answers = []
     search_query = query.query.lower().strip().rstrip()
 
-    if search_query == "":
+    if search_query == "menu":
         await client.answer_inline_query(
             query.id,
             results=menus,
@@ -23,11 +22,11 @@ async def inline(client: Client, query: InlineQuery):
             switch_pm_parameter="help",
             cache_time=0,
         )
-    if search_query == "s":
+    if search_query == "":
         await client.answer_inline_query(
             query.id,
             results=answers,
-            switch_pm_text="Search a youtube video",
+            switch_pm_text="search a youtube video",
             switch_pm_parameter="help",
             cache_time=0,
         )
@@ -38,11 +37,11 @@ async def inline(client: Client, query: InlineQuery):
             answers.append(
                 InlineQueryResultArticle(
                     title=result["title"],
-                    description="{}, {} views.".format(
+                    description="{}, {}.".format(
                         result["duration"], result["viewCount"]["short"]
                     ),
                     input_message_content=InputTextMessageContent(
-                        "https://www.youtube.com/watch?v={}".format(result["id"])
+                        "/vstream https://www.youtube.com/watch?v={}".format(result["id"])
                     ),
                     thumb_url=result["thumbnails"][0]["url"],
                 )
@@ -57,10 +56,14 @@ async def inline(client: Client, query: InlineQuery):
                 switch_pm_text="Error: search timed out",
                 switch_pm_parameter="",
             )
+
+
 # ==================
-# Tested
+# Fucked
 
 menus = [
-        InlineQueryResultArticle(title="Start", description="Start a bot", input_message_content=InputTextMessageContent("/start")),
-        InlineQueryResultArticle(title="Info Bot", description="Info about this bot", input_message_content=InputTextMessageContent("/info")),
-    ]
+    InlineQueryResultArticle(title="Start", description="Start a bot",
+                             input_message_content=InputTextMessageContent("/start")),
+    InlineQueryResultArticle(title="Info Bot", description="Info about this bot",
+                             input_message_content=InputTextMessageContent("/info")),
+]
