@@ -10,7 +10,7 @@ from ZaidVD.videoplayer import app as USER
 from config import Zaid
 
 
-@Client.on_message(command(["vjoin", f"vjoin@{Zaid.BOT_USERNAME}"]) & ~filters.private & ~filters.bot)
+@Client.on_message(command(["vjoin", f"userbotjoin"]) & ~filters.private & ~filters.bot)
 @authorized_users_only
 @errors
 async def entergroup(client, message):
