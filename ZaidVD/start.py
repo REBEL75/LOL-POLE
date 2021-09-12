@@ -55,7 +55,7 @@ async def start(client, m: Message):
                        ]]
                     ))
    else:
-      await m.reply("**✨ ᴍɪɴᴇ ᴀꜱꜱɪꜱᴛᴀɴᴛ ᴜɴᴀʙʟᴇ ᴊᴏɪɴ ᴜʀ ɢʀᴏᴜᴘ ᴍᴀᴋᴇ ᴜʀ ᴏᴡɴ ʙᴏᴛ... ✨**",
+      await m.reply("**✨ BOT IS ONLINE... ✨**",
                           reply_markup=InlineKeyboardMarkup(
                        [[
                           InlineKeyboardButton(
