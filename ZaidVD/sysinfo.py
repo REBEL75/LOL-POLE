@@ -1,15 +1,13 @@
 import platform
 import re
 import socket
-import sys
-import time
 import uuid
-from datetime import datetime
-from os import environ, execle, path, remove
-from helpers.decorators import humanbytes
 
 import psutil
-from pyrogram import  Client, filters, __version__
+from pyrogram import Client, filters
+from config import Zaid
+from helpers.decorators import sudo_users_only, humanbytes
+from helpers.filters import command
 
 
 # FETCH SYSINFO
