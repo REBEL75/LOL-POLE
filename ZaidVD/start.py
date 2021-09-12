@@ -37,7 +37,7 @@ async def start(client, m: Message):
                     reply_markup=InlineKeyboardMarkup(
                        [[
                           InlineKeyboardButton(
-                             "ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ʜᴇʟᴘ", callback_data="help")
+                             "Add Me", url="https://t.me/{Zaid.BOT_USERNAME}?startgroup=true")
                        ],[
                           InlineKeyboardButton(
                              "😈 ᴢᴀɪᴅ ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀᴛ", url="https://t.me/zaid_team1")
