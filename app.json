@@ -9,7 +9,7 @@
     ],
     "website": "https://t.me/zaid_team1",
     "repository": "https://github.com/Itsunknown-12/Zaid-Video-Player",
-    "success_url": "https://t.me/Timesisnotwaiting",
+    "success_url": "https://t.me/Zaid_Support",
     "env": {
         "API_ID": {
             "description": "your APP_ID from my.telegram.org",
