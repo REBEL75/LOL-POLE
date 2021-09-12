@@ -1,5 +1,5 @@
 from typing import Dict, List
-from config import admins
+from config import Zaid
 
 
 admins: Dict[int, List[int]] = {}
