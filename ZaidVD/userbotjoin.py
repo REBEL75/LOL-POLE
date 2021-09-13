@@ -42,7 +42,7 @@ async def entergroup(client, message):
         )
         return
     await message.reply_text(
-        "<b>✅ assistant userbot joined your chat</b>",
+        "<b>✅ 𝙼𝙸𝚂𝚂 𝚀𝚄𝙴𝙴𝙽 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝙹𝙺𝙸𝙽𝙴𝙳𝚈𝙾𝚄𝙲𝙷𝙰𝚃</b>",
     )
 
 
