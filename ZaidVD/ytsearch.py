@@ -16,7 +16,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 @app.on_message(command(["search", f"search@{Zaid.BOT_USERNAME}"]))
 async def ytsearch(_, message: Message):
-    m = await message.reply_text("🔎 **searching url...**")
+    m = await message.reply_text("🔎 **ՏᗴᗩᖇᑕᕼIᑎᘜ ᑌᖇᒪ...**")
     try:
         if len(message.command) < 2:
             await message.reply_text("`/search` needs an argument!")
@@ -26,10 +26,10 @@ async def ytsearch(_, message: Message):
         i = 0
         text = ""
         while i < 5:
-            text += f"**Name:** `{results[i]['title']}`\n"
-            text += f"**Duration:** {results[i]['duration']}\n"
-            text += f"**Views:** {results[i]['views']}\n"
-            text += f"**Channel:** {results[i]['channel']}\n"
+            text += f"**𝐍𝐚𝐦𝐞:** `{results[i]['title']}`\n"
+            text += f"**𝐃𝐮𝐫𝐚𝐭𝐢𝐨𝐧:** {results[i]['duration']}\n"
+            text += f"**𝐕𝐢𝐞𝐰𝐬:** {results[i]['views']}\n"
+            text += f"**𝐂𝐡𝐚𝐧𝐧𝐞𝐥:** {results[i]['channel']}\n"
             text += f"https://www.youtube.com{results[i]['url_suffix']}\n\n"
             i += 1
         await m.edit(text, disable_web_page_preview=True)
